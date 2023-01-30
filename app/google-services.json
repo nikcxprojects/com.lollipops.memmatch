@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825631645343",
+    "project_id": "comlollipopsmemmatch",
+    "storage_bucket": "comlollipopsmemmatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825631645343:android:272c32734b4ef6b6bd4caa",
+        "android_client_info": {
+          "package_name": "com.lollipops.memmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825631645343-nvms88e8rhimsvg7p0qc40058j56s52b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8zHgwTPUbqJKpqkH6floETxNkQEDGOy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825631645343-nvms88e8rhimsvg7p0qc40058j56s52b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
